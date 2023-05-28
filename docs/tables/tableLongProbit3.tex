@@ -1,0 +1,47 @@
+\begin{table}[htbp]\centering \footnotesize \renewcommand{\arraystretch}{0.3} \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}\caption{\label{tab:tableLongProbit3} \footnotesize Marginal probit estimates (\cref{eq:probitModel}) for outcome variables.}\begin{tabular}{lcccac} \hline\hline
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         \\
+\hline \\ \multicolumn{6}{l}{\textbf{Child Is Anaemic}} \\\\[-1ex]
+\textit{After}      &      -0.073\sym{***}&      -0.074\sym{***}&      -0.076\sym{***}&      -0.079\sym{***}&      -0.094\sym{***}\\
+                    &     (0.011)         &     (0.011)         &     (0.011)         &     (0.011)         &     (0.016)         \\
+[1em]
+\textit{After} x \textit{LowWealth}&       0.004         &       0.004         &       0.003         &       0.000         &      -0.004         \\
+                    &     (0.011)         &     (0.011)         &     (0.010)         &     (0.010)         &     (0.019)         \\
+[1em]
+Baseline High Wealth&       0.704         &       0.704         &       0.704         &       0.704         &       0.702         \\
+Baseline Low Wealth &       0.744         &       0.742         &       0.748         &       0.737         &       0.725         \\
+N                   &       71848         &       71848         &       71848         &       71120         &       21892         \\
+R-Square            &       0.014         &       0.014         &       0.050         &       0.052         &       0.051         \\
+\hdashline \\ \multicolumn{6}{l}{\textbf{Adult Is Anaemic}} \\\\[-1ex]
+\textit{After}      &      -0.034\sym{***}&      -0.034\sym{***}&      -0.034\sym{***}&      -0.033\sym{***}&      -0.039\sym{***}\\
+                    &     (0.009)         &     (0.009)         &     (0.009)         &     (0.009)         &     (0.012)         \\
+[1em]
+\textit{After} x \textit{LowWealth}&      -0.011         &      -0.010         &      -0.008         &      -0.013         &      -0.007         \\
+                    &     (0.009)         &     (0.009)         &     (0.009)         &     (0.008)         &     (0.014)         \\
+[1em]
+Baseline High Wealth&       0.505         &       0.505         &       0.505         &       0.505         &       0.516         \\
+Baseline Low Wealth &       0.558         &       0.550         &       0.550         &       0.540         &       0.552         \\
+N                   &      271700         &      271700         &      271690         &      268600         &       84233         \\
+R-Square            &       0.008         &       0.009         &       0.012         &       0.049         &       0.051         \\
+\hdashline \\ \multicolumn{6}{l}{\textbf{Men Do Smoke}} \\\\[-1ex]
+\textit{After}      &      -0.082\sym{***}&      -0.082\sym{***}&      -0.080\sym{***}&      -0.084\sym{***}&      -0.030         \\
+                    &     (0.014)         &     (0.014)         &     (0.013)         &     (0.014)         &     (0.021)         \\
+[1em]
+\textit{After} x \textit{LowWealth}&       0.042\sym{**} &       0.042\sym{**} &       0.038\sym{**} &       0.040\sym{**} &      -0.004         \\
+                    &     (0.018)         &     (0.018)         &     (0.017)         &     (0.017)         &     (0.024)         \\
+[1em]
+Baseline High Wealth&       0.440         &       0.440         &       0.440         &       0.441         &       0.432         \\
+Baseline Low Wealth &       0.613         &       0.610         &       0.613         &       0.596         &       0.592         \\
+N                   &       34863         &       34863         &       34863         &       34457         &       10426         \\
+R-Square            &       0.081         &       0.081         &       0.129         &       0.135         &       0.156         \\
+\hdashline \\ \multicolumn{6}{l}{\textbf{Men Use Alcohol}} \\\\[-1ex]
+\textit{After}      &      -0.053\sym{***}&      -0.053\sym{***}&      -0.053\sym{***}&      -0.050\sym{***}&      -0.034         \\
+                    &     (0.011)         &     (0.011)         &     (0.011)         &     (0.011)         &     (0.022)         \\
+[1em]
+\textit{After} x \textit{LowWealth}&       0.038\sym{***}&       0.038\sym{***}&       0.036\sym{***}&       0.029\sym{**} &      -0.003         \\
+                    &     (0.013)         &     (0.013)         &     (0.013)         &     (0.013)         &     (0.026)         \\
+[1em]
+Baseline High Wealth&       0.234         &       0.234         &       0.234         &       0.235         &       0.263         \\
+Baseline Low Wealth &       0.323         &       0.321         &       0.324         &       0.305         &       0.356         \\
+N                   &       34863         &       34863         &       34863         &       34457         &       10426         \\
+R-Square            &       0.062         &       0.062         &       0.091         &       0.107         &       0.104         \\
+\hline\\ State Fixed & \cmark & \cmark & \cmark & \cmark & \cmark \\ Region & \xmark & \cmark & \cmark & \cmark & \cmark \\ Time Controls & \xmark & \xmark & \cmark & \cmark & \cmark \\ Individual Controls & \xmark & \xmark & \xmark & \cmark & \cmark \\ \hline\hline \multicolumn{4}{l}{\footnotesize Standard errors in parentheses \Tstrut}\\ \multicolumn{2}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\ \end{tabular} \\ \caption*{\footnotesize \textbf{After} is the effect of after-lockdown-indicator, and \textbf{After x LowWealth} is the interaction between After and belonging to two lowest wealth quintiles. \textbf{Baseline High} and \textbf{Low Wealth} are before-lockdown-means of dependent variable of high and low wealth individuals, respectively. \textbf{Time Controls} are monthly or yearly dummies for month of interview, month of birth and age. \textbf{Individual Controls} include sex, ethnicity and religion background. In (5), observations are limited on intra-state edges only. DHS sampling weights are used, and standard errors are clustered over districts.} \end{table}

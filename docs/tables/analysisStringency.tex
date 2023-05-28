@@ -1,0 +1,26 @@
+\begin{table}[htbp]\centering \footnotesize \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}\caption{\label{tab:analysisStringency} \footnotesize Marginal probit estimates (\cref{eq:stringencyProbitModel}) for stringency analysis}\begin{tabular}{l*{7}{c}} \hline\hline
+&\rot{Not Fully Vacc, 12-24}&\rot{Never Vacc, 12-24}&\rot{Not Fully Vacc, 1-12}&\rot{Never Vacc, 1-12}&\rot{Child Stunting}&\rot{Child Underweight}&\rot{Child Wasting}\\
+\textit{After}      &      -0.073\sym{***}&       0.014\sym{**} &      -0.017         &       0.011         &      -0.022\sym{**} &      -0.027\sym{***}&      -0.039\sym{***}\\
+                    &     (0.018)         &     (0.006)         &     (0.016)         &     (0.008)         &     (0.011)         &     (0.009)         &     (0.009)         \\
+[1em]
+\textit{After} x \textit{LowWealth}&       0.010         &      -0.010         &      -0.003         &       0.004         &       0.012         &       0.022\sym{*}  &       0.016         \\
+                    &     (0.023)         &     (0.008)         &     (0.020)         &     (0.009)         &     (0.012)         &     (0.012)         &     (0.011)         \\
+[1em]
+\textit{After} x \textit{HiStr}&      -0.002         &      -0.016         &      -0.016         &       0.002         &       0.042\sym{**} &       0.037\sym{**} &       0.018         \\
+                    &     (0.027)         &     (0.012)         &     (0.028)         &     (0.013)         &     (0.020)         &     (0.017)         &     (0.017)         \\
+[1em]
+\textit{After} x \textit{LowWealth} x \textit{HiStr}&      -0.024         &       0.017         &       0.020         &      -0.008         &      -0.032         &      -0.028         &      -0.022         \\
+                    &     (0.039)         &     (0.017)         &     (0.038)         &     (0.016)         &     (0.024)         &     (0.023)         &     (0.019)         \\
+&\rot{Adult Underweight}&\rot{Child Anaemic}&\rot{Adult Anaemic}&\rot{Men Smoke}&\rot{Men Alcohol}&\rot{Exp Violence}&\rot{Number of Inj}\\
+\textit{After}      &      -0.002         &      -0.096\sym{***}&      -0.041\sym{***}&      -0.067\sym{***}&      -0.042\sym{***}&      -0.101\sym{***}&      -1.143\sym{***}\\
+                    &     (0.006)         &     (0.012)         &     (0.010)         &     (0.016)         &     (0.013)         &     (0.014)         &     (0.097)         \\
+[1em]
+\textit{After} x \textit{LowWealth}&       0.013         &       0.004         &      -0.007         &       0.026         &       0.025         &       0.015         &      -0.286\sym{**} \\
+                    &     (0.008)         &     (0.012)         &     (0.011)         &     (0.019)         &     (0.015)         &     (0.019)         &     (0.121)         \\
+[1em]
+\textit{After} x \textit{HiStr}&      -0.021\sym{**} &       0.089\sym{***}&       0.030         &      -0.051\sym{*}  &      -0.042         &       0.022         &       0.213         \\
+                    &     (0.008)         &     (0.022)         &     (0.021)         &     (0.027)         &     (0.027)         &     (0.027)         &     (0.184)         \\
+[1em]
+\textit{After} x \textit{LowWealth} x \textit{HiStr}&      -0.015         &       0.000         &      -0.004         &       0.040         &       0.037         &       0.037         &      -0.094         \\
+                    &     (0.012)         &     (0.021)         &     (0.015)         &     (0.040)         &     (0.028)         &     (0.034)         &     (0.172)         \\
+\hline\hline \multicolumn{8}{l}{\footnotesize Standard errors in parentheses}\\ \multicolumn{8}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\ \end{tabular} \\ \caption*{\textbf{After} is \textit{after-lockdown}-indicator, \textbf{LowWealth} denotes belonging to two lowest wealth quintiles, \textbf{HiStr} denotes belonging to states with higher COVID-19 stringency index, and \textbf{x} denotes interaction between dependent variables. Models are controlled for wealth status, region (urban/rural), state and month fixed effects, children age and children month of birth.} \end{table}

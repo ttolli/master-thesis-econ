@@ -1,0 +1,25 @@
+\begin{table}[htbp]\centering \footnotesize \renewcommand{\arraystretch}{0.3} \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}\caption{\label{tab:tableLongProbit4} \footnotesize OLS (\cref{eq:continuousModel}$^\dagger$) and marginal probit estimates (\cref{eq:probitModel}) for outcome variables.}\begin{tabular}{lcccac} \hline\hline
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         \\
+\hline \\ \multicolumn{6}{l}{\textbf{Experienced Any Violence}} \\\\[-1ex]
+\textit{After}      &      -0.097\sym{***}&      -0.097\sym{***}&      -0.095\sym{***}&      -0.098\sym{***}&      -0.055\sym{**} \\
+                    &     (0.013)         &     (0.013)         &     (0.012)         &     (0.012)         &     (0.022)         \\
+[1em]
+\textit{After} x \textit{LowWealth}&       0.027\sym{*}  &       0.027\sym{*}  &       0.024         &       0.024         &      -0.029         \\
+                    &     (0.016)         &     (0.016)         &     (0.016)         &     (0.016)         &     (0.033)         \\
+[1em]
+Baseline High Wealth&       0.317         &       0.317         &       0.317         &       0.318         &       0.339         \\
+Baseline Low Wealth &       0.398         &       0.395         &       0.396         &       0.382         &       0.445         \\
+N                   &       23965         &       23965         &       23954         &       23691         &        7342         \\
+R-Square            &       0.035         &       0.035         &       0.042         &       0.045         &       0.067         \\
+\hdashline \\ \multicolumn{6}{l}{\textbf{Number of Injections$^\dagger$}} \\\\[-1ex]
+\textit{After}      &      -1.092\sym{***}&      -1.085\sym{***}&      -1.090\sym{***}&      -1.077\sym{***}&      -1.061\sym{***}\\
+                    &     (0.095)         &     (0.084)         &     (0.084)         &     (0.086)         &     (0.146)         \\
+[1em]
+\textit{After} x \textit{LowWealth}&      -0.290\sym{***}&      -0.295\sym{***}&      -0.320\sym{***}&      -0.324\sym{***}&      -0.157         \\
+                    &     (0.104)         &     (0.095)         &     (0.094)         &     (0.094)         &     (0.168)         \\
+[1em]
+Baseline High Wealth&       2.863         &       2.863         &       2.863         &       2.873         &       2.868         \\
+Baseline Low Wealth &       3.246         &       3.016         &       3.071         &       3.094         &       2.967         \\
+N                   &      275055         &      275055         &      275055         &      271687         &       85585         \\
+R-Square            &       0.016         &       0.019         &       0.025         &       0.026         &       0.029         \\
+\hline\\ State Fixed & \cmark & \cmark & \cmark & \cmark & \cmark \\ Region & \xmark & \cmark & \cmark & \cmark & \cmark \\ Time Controls & \xmark & \xmark & \cmark & \cmark & \cmark \\ Individual Controls & \xmark & \xmark & \xmark & \cmark & \cmark \\ \hline\hline \multicolumn{4}{l}{\footnotesize Standard errors in parentheses \Tstrut}\\ \multicolumn{2}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\ \end{tabular} \\ \caption*{\footnotesize \textbf{After} is the effect of after-lockdown-indicator, and \textbf{After x LowWealth} is the interaction between After and belonging to two lowest wealth quintiles. \textbf{Baseline High} and \textbf{Low Wealth} are before-lockdown-means of dependent variable of high and low wealth individuals, respectively. \textbf{Time Controls} are monthly or yearly dummies for month of interview, month of birth and age. \textbf{Individual Controls} include sex, ethnicity and religion background. In (5), observations are limited on intra-state edges only. DHS sampling weights are used, and standard errors are clustered over districts.} \end{table}

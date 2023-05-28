@@ -1,0 +1,21 @@
+\begin{table}[htbp]\centering \footnotesize \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}\caption{\label{tab:analysisVaccDetailed} \footnotesize Marginal probit estimates (\cref{eq:probitModel}) for programme vaccinations}\begin{tabular}{l*{8}{c}} \hline\hline
+                    &\multicolumn{1}{c}{BCG}&\multicolumn{1}{c}{DPT-1}&\multicolumn{1}{c}{DPT-2}&\multicolumn{1}{c}{DPT-3}&\multicolumn{1}{c}{Polio-1}&\multicolumn{1}{c}{Polio-2}&\multicolumn{1}{c}{Polio-3}&\multicolumn{1}{c}{Measles}\\
+\hline \\ [-2em] \multicolumn{9}{l}{\textbf{Child 12-24 Months, Do Not Have Corresponding Vaccination}} \\
+\textit{After}      &       0.005         &       0.006         &      -0.009         &       0.001         &      -0.027\sym{**} &      -0.012         &      -0.042\sym{***}&      -0.004         \\
+                    &     (0.006)         &     (0.008)         &     (0.008)         &     (0.009)         &     (0.011)         &     (0.011)         &     (0.013)         &     (0.011)         \\
+[1em]
+\textit{After} x \textit{LowWealth}&      -0.005         &      -0.019\sym{*}  &      -0.003         &      -0.024\sym{**} &       0.001         &      -0.012         &       0.007         &      -0.016         \\
+                    &     (0.008)         &     (0.010)         &     (0.012)         &     (0.012)         &     (0.015)         &     (0.014)         &     (0.017)         &     (0.014)         \\
+\hline
+Baseline High Wealth&       0.033         &       0.051         &       0.076         &       0.071         &       0.110         &       0.104         &       0.170         &       0.089         \\
+Baseline Low Wealth &       0.065         &       0.096         &       0.105         &       0.123         &       0.154         &       0.168         &       0.222         &       0.154         \\
+\\ [-2em] \hline \multicolumn{9}{l}{\textbf{Child 1-12 Months, Do Not Have Corresponding Vaccination}} \\
+\textit{After}      &       0.008         &       0.007         &      -0.003         &       0.019\sym{*}  &       0.012         &       0.011         &      -0.001         &       0.013         \\
+                    &     (0.008)         &     (0.010)         &     (0.011)         &     (0.011)         &     (0.012)         &     (0.010)         &     (0.012)         &     (0.011)         \\
+[1em]
+\textit{After} x \textit{LowWealth}&       0.004         &       0.009         &       0.002         &      -0.006         &      -0.007         &      -0.000         &       0.003         &      -0.003         \\
+                    &     (0.011)         &     (0.012)         &     (0.013)         &     (0.013)         &     (0.015)         &     (0.015)         &     (0.016)         &     (0.014)         \\
+\hline
+Baseline High Wealth&       0.043         &       0.175         &       0.182         &       0.306         &       0.325         &       0.450         &       0.488         &       0.472         \\
+Baseline Low Wealth &       0.068         &       0.206         &       0.213         &       0.357         &       0.377         &       0.505         &       0.539         &       0.533         \\
+\hline\hline \multicolumn{9}{l}{\footnotesize Standard errors in parentheses}\\ \multicolumn{9}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\ \end{tabular} \\ \caption*{\footnotesize Upper and lower panel shows the corresponding estimate for \textit{\textbf{not} having corresponding vaccination}-outcome variable for children aged 12-24 and 1-12 months, respectively. \textbf{After} is the effect of \textit{after-lockdown}-indicator, and \textbf{After x LowWealth} is the interaction between \textit{After} and belonging into two lowest wealth quintiles. \textbf{Baseline High} and \textbf{Low Wealth} are before-lockdown-means of dependent variable of high and low wealth individuals, respectively. The models are controlled for wealth status, region (urban/rural), state and month fixed effects, as well as children age in months, month of birth and sex.} \end{table}
