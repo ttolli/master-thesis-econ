@@ -14,24 +14,28 @@
         - **colrspace**: visualizing stringency across states and making histogram data
         - **gr0034**: providing state labels with average stringency values in stringency visualization
     - You may install *packageName* using
-```
-ssc install packageName
-```
-    - For *gr0034* and *grc1leg2*, type first
-```
-searcg packageName
-```
-    and install them by clicking the found package.
+    ```
+    ssc install packageName
+    ```
+    - Install *gr0034* and *grc1leg2* by clicking the found package after typing
+    ```
+    search packageName
+    ```
 
 - For python, there's *requirements.txt* available for required libraries. You may e.g., run the following to make sure proper libraries are installed
+
 ```
 pip install -r scripts\requirements.txt
 ```
+
 - Refer to the instructions at the beginning of *runAll.do*, and thereafter:
+
 ```
 run runAll.do                     // Runs each analysis needed for the thesis
 ```
+
 - Alternatively, once data is imported, any analysis can be run separately as well. Maybe easiest is just to take *runAll.do*, keep init-part but uncomment those scripts that are not required. Alternatively, scripts can be run individually, in which case please see the instructions from the beginning of corresponding script:
+
 ```
 run readAllDhsData.do             // Import data, create necessary variables. Needs to be done only once
 run analysisMain.do               // Main analysis (Tables 1-4)
@@ -41,13 +45,14 @@ run analysisVaccDetailed.do       // Detailed analysis for programme vaccination
 run analysisNutritionDetailed.do  // Detailed analysis for nutrition indicators (Table 6)
 run analysisStringency.do         // Stringency analysis (Table 7)
 ```
+
 - Please note specifically that there are some helper scripts available to ease importing DHS data. Details can be found from the start of *readAllDhsData*
 
-## Folder and file structure
+## Folder structure
 
 - **src**:
     - *readAllDhsData.do*: Import data, create and store necessary variables. Needs to be run only once.
-    - *runAll*: Runs each analysis needed for the thesis
+    - *runAll.do*: Runs each analysis needed for the thesis
     - *analysisMain.do*: Main analysis
     - *analysisMean.do*: Graphs from the past surveys, including main coefficients
     - *analysisBalance.do*: Balancing tests
@@ -56,8 +61,8 @@ run analysisStringency.do         // Stringency analysis (Table 7)
     - *analysisStringency.do*: Stringency analysis
     - **scripts** : miscellaneous helper scripts
         - reading dhs data in, and storing so that can be used by main analysis
-        - helpers used by main analysis scripts
+        - helpers used by analysis scripts
         - python scripts to do the edge calculations from gps data
         - miscellaneous visualization scripts for the thesis
 - **doc** :
-    - Master's thesis report
+    - Thesis report
